@@ -1,0 +1,10 @@
+--type-add=css=.scss
+--type-add=ruby=.feature
+--type-add=jsx=.jsx
+
+--type-set=sass=.scss
+
+--ignore-dir=.sass-cache/
+--ignore-dir=node_modules/
+
+--type-add=ini=.ini

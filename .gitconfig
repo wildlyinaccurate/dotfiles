@@ -1,0 +1,23 @@
+[apply]
+    whitespace = nowarn
+[branch]
+    autosetuprebase = always
+[diff]
+    compactionHeuristic = true
+[pager]
+    log = diff-highlight | less
+    show = diff-highlight | less
+    diff = diff-highlight | less
+[interactive]
+    diffFilter = diff-highlight | less
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = true
+[core]
+    autocrlf = input
+    excludesfile = ~/.gitignore-global
+[user]
+    name = Joseph Wynn
+    email = joseph@wildlyinaccurate.com
