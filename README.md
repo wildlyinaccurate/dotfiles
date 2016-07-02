@@ -6,7 +6,7 @@ dotfiles but, like, really simple
 
 ```
 git clone git@github.com:wildlyinaccurate/dotfiles.git ~/.dotfiles
-find ~/.dotfiles -mindepth 1 -maxdepth 1 -not -name .git -not -name README.md -exec ln -s {} ~/ \;
+find ~/.dotfiles -mindepth 1 -maxdepth 1 -not -name .git -not -name README.md -not -name .gitignore -exec ln -s {} ~/ \;
 ```
 
 ## License

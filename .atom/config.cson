@@ -1,0 +1,13 @@
+"*":
+  core:
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "b518a11f-e724-55cb-9ed1-7b68a2616da1"
+  welcome:
+    showOnStartup: false
