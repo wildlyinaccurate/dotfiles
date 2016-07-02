@@ -5,6 +5,7 @@
       "base16-tomorrow-dark-theme"
     ]
   editor:
+    fontSize: 13
     scrollPastEnd: true
     showIndentGuide: true
   "exception-reporting":
