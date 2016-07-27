@@ -1,14 +1,28 @@
 "*":
   core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
+    ]
     themes: [
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
   editor:
-    fontSize: 13
+    fontSize: 12
     scrollPastEnd: true
     showIndentGuide: true
   "exception-reporting":
     userId: "b518a11f-e724-55cb-9ed1-7b68a2616da1"
+  "find-and-replace":
+    scrollToResultOnLiveSearch: true
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+    keepMarkdownLineBreakWhitespace: false
