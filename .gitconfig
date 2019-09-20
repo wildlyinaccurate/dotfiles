@@ -4,21 +4,33 @@
     autosetuprebase = always
 [diff]
     compactionHeuristic = true
-[pager]
-    log = diff-highlight | less
-    show = diff-highlight | less
-    diff = diff-highlight | less
-[interactive]
-    diffFilter = diff-highlight | less
 [color]
     diff = auto
     status = auto
     branch = auto
-    ui = true
+	ui = true
 [core]
     autocrlf = input
     editor = subl -w
     excludesfile = ~/.gitignore-global
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [user]
     name = Joseph Wynn
     email = joseph@wildlyinaccurate.com
+	signingkey = F34B9E530F0D3AEE
+[pull]
+	rebase = true
+[commit]
+	gpgsign = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse

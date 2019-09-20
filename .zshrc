@@ -2,14 +2,17 @@
 export ZSH=/home/joseph/.oh-my-zsh
 
 ZSH_THEME="lambda"
-plugins=(git)
+plugins=(docker-compose git zsh-syntax-highlighting)
 
 path=("$HOME/bin" "$path[@]")
 
 source $ZSH/oh-my-zsh.sh
 # oh-my-zsh end
 
-eval `keychain --eval id_ed25519 id_rsa`
+# keys start
+eval `keychain --eval id_ed25519 id_ed25519_speedcurve id_rsa`
+export GPG_TTY=$(tty)
+# keys end
 
 # version management start
 export NVM_DIR="$HOME/.nvm"
@@ -17,7 +20,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
 
 source /usr/local/share/chruby/chruby.sh
-chruby 2.4
+chruby 2.6
 
 echo "node $(node -v)"
 ruby -v
@@ -25,4 +28,9 @@ ruby -v
 
 # aliases start
 alias reload!='source ~/.zshrc'
+alias rm='rm -v'
+alias sc="$HOME/dev/speedcurve/speedcurve.com"
+alias scc="$HOME/dev/speedcurve/speedcurve.com/common"
+alias scrun="$HOME/dev/speedcurve/speedcurve-run"
+alias scapi="$HOME/dev/speedcurve/speedcurve-api"
 # aliases end
