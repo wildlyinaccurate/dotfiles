@@ -34,3 +34,7 @@ alias scc="$HOME/dev/speedcurve/speedcurve.com/common"
 alias scrun="$HOME/dev/speedcurve/speedcurve-run"
 alias scapi="$HOME/dev/speedcurve/speedcurve-api"
 # aliases end
+
+# misc. environment variables start
+export SPEEDCURVE_API_KEY=xxx
+# misc. environment variables end
