@@ -1,0 +1,59 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.renderWhitespace": "selection",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/.sass-cache": true,
+        "**/.idea": true
+    },
+    "editor.tabSize": 4,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "php.validate.run": "onType",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "editor.dragAndDrop": false,
+    "editor.find.seedSearchStringFromSelection": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.scrollBeyondLastLine": true,
+    "files.associations": {
+        "*.inc": "php",
+        "*.har": "json"
+    },
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.fontLigatures": true,
+    "php.suggest.basic": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "search.useGlobalIgnoreFiles": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "fairyfloss",
+    "editor.lineHeight": 22,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        },
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ]
+}
