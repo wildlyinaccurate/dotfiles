@@ -14,6 +14,7 @@
     editor = subl -w
     excludesfile = ~/.gitignore-global
 	pager = diff-so-fancy | less --tabs=4 -RFX
+	hooksPath = /home/joseph/.githooks
 [user]
     name = Joseph Wynn
     email = joseph@wildlyinaccurate.com

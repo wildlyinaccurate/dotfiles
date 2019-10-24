@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Redirect output to stderr.
+exec 1>&2
+
+files_to_commit=`git diff-index --cached -r --name-only HEAD`
+output=$(grep --context 2 '\$\$NO_COMMIT\$\$' $files_to_commit)
+
+if [[ "$output" != "" ]]
+then
+	echo 'ERROR! This commit was aborted because the $$NO_COMMIT$$ marker was found in the following files:'
+	echo "$output"
+	exit 1
+fi
+
