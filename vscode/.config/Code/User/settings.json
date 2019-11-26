@@ -55,5 +55,11 @@
             "language": "typescriptreact",
             "autoFix": true
         }
-    ]
+    ],
+    "extensions.ignoreRecommendations": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {},
+    "typescript.format.semicolons": "remove",
+    "search.useIgnoreFiles": false,
+    "typescript.preferences.importModuleSpecifier": "relative"
 }
