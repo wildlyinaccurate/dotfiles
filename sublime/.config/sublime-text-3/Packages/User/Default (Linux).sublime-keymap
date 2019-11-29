@@ -1,0 +1,7 @@
+[
+	{ "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+	{ "keys": ["ctrl+s"], "command": "save_all" },
+	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
+
+    { "keys": ["ctrl+shift+g"], "command": "find_all_under" }
+]
