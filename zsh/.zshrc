@@ -2,7 +2,7 @@
 export ZSH=/home/joseph/.oh-my-zsh
 
 ZSH_THEME="lambda"
-plugins=(docker-compose git zsh-syntax-highlighting)
+plugins=(docker-compose git)
 
 path=("$HOME/bin" "$path[@]")
 
@@ -29,6 +29,7 @@ ruby -v
 # aliases start
 alias reload!='source ~/.zshrc'
 alias rm='rm -v'
+alias ifconfig='ip -c a'
 alias sc="$HOME/dev/speedcurve/speedcurve.com"
 alias scc="$HOME/dev/speedcurve/speedcurve.com/common"
 alias scrun="$HOME/dev/speedcurve/speedcurve-run"
@@ -38,3 +39,5 @@ alias scapi="$HOME/dev/speedcurve/speedcurve-api"
 # misc. environment variables start
 export SPEEDCURVE_API_KEY=xxx
 # misc. environment variables end
+
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
