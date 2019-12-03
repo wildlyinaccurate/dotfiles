@@ -51,5 +51,28 @@
     {
         "key": "ctrl+k ctrl+w",
         "command": "-workbench.action.closeAllEditors"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "-editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "-editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "cursorWordPartLeftSelect"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "cursorWordPartRightSelect"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.duplicateSelection",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
