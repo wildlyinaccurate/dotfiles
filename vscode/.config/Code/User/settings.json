@@ -25,7 +25,8 @@
     "editor.scrollBeyondLastLine": true,
     "files.associations": {
         "*.inc": "php",
-        "*.har": "json"
+        "*.har": "json",
+        "*.src": "javascript"
     },
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.fontLigatures": true,

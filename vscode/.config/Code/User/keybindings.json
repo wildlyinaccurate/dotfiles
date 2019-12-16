@@ -74,5 +74,13 @@
         "key": "ctrl+shift+d",
         "command": "editor.action.duplicateSelection",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.closeWindow"
     }
 ]
