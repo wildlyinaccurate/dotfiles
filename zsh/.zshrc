@@ -4,7 +4,7 @@ export ZSH=/home/joseph/.oh-my-zsh
 ZSH_THEME="lambda"
 plugins=(docker-compose git)
 
-path=("$HOME/bin" "$path[@]")
+path=("$HOME/bin" "$HOME/.local/bin" "$path[@]" "$HOME/.rubies/ruby-2.7.0/bin")
 
 source $ZSH/oh-my-zsh.sh
 # oh-my-zsh end
@@ -18,9 +18,6 @@ export GPG_TTY=$(tty)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
-
-source /usr/local/share/chruby/chruby.sh
-chruby 2.6
 
 echo "node $(node -v)"
 ruby -v
