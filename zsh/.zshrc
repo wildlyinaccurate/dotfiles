@@ -35,7 +35,12 @@ alias scglaze="$HOME/dev/speedcurve/speedcurve-glaze"
 # aliases end
 
 # misc. environment variables start
-export SPEEDCURVE_API_KEY=xxx
+export SPEEDCURVE_API_KEY_WILDLY_INACCURATE=xxxx
+export SPEEDCURVE_API_KEY_USERSCOPE=xxxx
+export SPEEDCURVE_API_KEY_SPEEDCURVE=xxxx
+export SPEEDCURVE_API_KEY_CANARY=xxxx
+
+export SPEEDCURVE_API_KEY=$SPEEDCURVE_API_KEY_WILDLY_INACCURATE
 # misc. environment variables end
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
