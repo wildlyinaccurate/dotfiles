@@ -31,6 +31,7 @@ alias sc="$HOME/dev/speedcurve/speedcurve.com"
 alias scc="$HOME/dev/speedcurve/speedcurve.com/common"
 alias scrun="$HOME/dev/speedcurve/speedcurve-run"
 alias scapi="$HOME/dev/speedcurve/speedcurve-api"
+alias scglaze="$HOME/dev/speedcurve/speedcurve-glaze"
 # aliases end
 
 # misc. environment variables start
