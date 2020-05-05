@@ -10,7 +10,7 @@ source $ZSH/oh-my-zsh.sh
 # oh-my-zsh end
 
 # keys start
-eval `keychain --eval id_ed25519 id_ed25519_speedcurve id_rsa`
+eval `keychain --eval id_ed25519 id_ed25519_speedcurve id_rsa id_rsa_speedcurve`
 export GPG_TTY=$(tty)
 # keys end
 
