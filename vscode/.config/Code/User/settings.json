@@ -17,7 +17,6 @@
     "php.validate.run": "onType",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
     "editor.dragAndDrop": false,
     "editor.find.seedSearchStringFromSelection": true,
     "editor.fontFamily": "Fira Code",
@@ -38,29 +37,22 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "workbench.colorTheme": "fairyfloss",
     "editor.lineHeight": 22,
-    "eslint.autoFixOnSave": true,
     "eslint.validate": [
-        {
-            "language": "javascript",
-            "autoFix": true
-        },
-        {
-            "language": "javascriptreact",
-            "autoFix": true
-        },
-        {
-            "language": "typescript",
-            "autoFix": true
-        },
-        {
-            "language": "typescriptreact",
-            "autoFix": true
-        }
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
     ],
     "extensions.ignoreRecommendations": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "[typescript]": {},
     "typescript.format.semicolons": "remove",
     "search.useIgnoreFiles": false,
-    "typescript.preferences.importModuleSpecifier": "relative"
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false
+    },
+    "vetur.format.enable": false,
+    "vetur.format.options.tabSize": 4,
+    "editor.wordWrap": "on"
 }
